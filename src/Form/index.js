@@ -17,6 +17,8 @@ import {
 } from "./DatosPersonales/validaciones";
 import { validarInput } from "./DatosEntrega/validaciones";
 
+
+
 const Form = () => {
   const [step, setStep] = useState(0);
   const [pasos, setPasos] = useState({});

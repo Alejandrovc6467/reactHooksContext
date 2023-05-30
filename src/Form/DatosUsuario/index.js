@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import { TextField, Button, Box } from "@mui/material";
 import { validarEmail, validarPassword } from "./validaciones";
 
+
+
 const DatosUsuario = ({ updateStep }) => {
-  const [email, setEmail] = useState({
-    value: "",
-    valid: null,
-  });
+
+  const [email, setEmail] = useState({ value: "", valid: null });
   const [password, setPassword] = useState({ value: "", valid: null });
 
   return (
